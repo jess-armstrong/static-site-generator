@@ -1,3 +1,5 @@
+#This class represents the types of inline text that can exist in HTML and Markdown
+
 from enum import Enum
 
 class TextType(Enum):
