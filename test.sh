@@ -1,0 +1,1 @@
+python3 -m unittest discover -s src #tell python to use unittest module to run all tests in src
