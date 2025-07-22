@@ -77,7 +77,6 @@ class TestHTMLNode(unittest.TestCase):
         grandchildren = [LeafNode("b", "Hello, world!")]
         children = [ParentNode("p", grandchildren)]
         node = ParentNode("h1", children)
-        print(node.to_html())
         self.assertEqual(node.to_html(), '<h1><p><b>Hello, world!</b></p></h1>')
 
 if __name__ == "__main__":
